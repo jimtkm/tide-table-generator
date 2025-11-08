@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output files (don't commit generated data)
+*.json
+*.pdf
+
+# CSV data files (users should add their own)
+*_template.csv
+!template_example.csv
+
+# OS files
+.DS_Store
+Thumbs.db
